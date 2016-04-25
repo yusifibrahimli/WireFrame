@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	background-color: darkred;
+	font-size: 12px;
+	font-family: Calibri;
+}
+/*-------Common Classes-------*/
+.mainWrapper{
+ width: 960px;
+}
+.marginSize{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.fullBox{
+	width: 100%;
+	height: auto;
+}
+.pullRight{
+	float: right;
+}
+.pullLeft{
+	float: left;
+}
+.color{
+	color: white;
+	font-size: 1.5em;
+}
+.colorRed{
+	background-color: darkred;
+	color: white;
+}
+.colorWhite{
+	background-color: white;
+	color: darkred;
+}
+.fullBox{
+	width: 100%;
+	height: auto;
+}
+.centeredSection{
+	margin: 0 auto;
+}
+.border{
+	border:1px solid white;
+}
+.clearFix{
+	clear: both;
+}
+.space{
+	width: 100%;
+	height: 10px;
+}
+.box{
+	width:100%;
+	height:120px;
+	background:white;
+	margin-bottom:10px;
+}
+.circle{
+	border:1px solid white;
+	border-radius: 100%;
+}
+
+/*-------Common Classes-------*/
+/*Main section*/
+.logo{
+	font-size:50px;
+	line-height: 65px;
+	padding-right:10px;
+}
+.searchBox input{
+	width: 350px;
+	margin-top: 15px;
+	margin-left: 30px;
+	height: 30px;
+	padding: 5px 10px;
+	background-image: url(../images/search.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+.upload{
+	margin-left: 15px;
+	padding: 8px 15px;
+	line-height: 15px;
+	margin-top: 15px;
+	height: 30px;
+}
+.user > .fa-user{
+	background:white;
+	padding:10px;
+	margin-top: 10px;
+}
+.user span{
+	color: white;
+}
+.navbar{
+	height: 40px;
+	border:1px solid white;
+	border-left: none;
+	border-right: none;
+}
+.navbar ul li{
+	padding-top: 5px;
+	list-style-type: none;
+	float: left;
+	padding-left: 30px;
+	color: white;
+	font-size: 20px;
+}
+.navbar ul li:first-child{
+	padding-left: 0;
+}
+.navbar ul li:after{
+	content: "/";
+	margin-left:20px;
+}
+.navbar ul li:last-child:after{
+	content: "";
+}
+.headSec:after{
+	content: "Browse all videos";
+	font-size: 10px;
+	padding-left:320px;
+}
+.head:after{
+	content: "view timline/Filter activites";
+	font-size: 10px;
+	padding-right: 0;
+	padding-left:146px; 
+}
+.headChannel:after{
+	content: "Browse all channels";
+	font-size: 10px;
+	padding-right: 0;
+	padding-left:170px; 
+}
+.headPeople:after{
+	content: "view all";
+	font-size: 10px;
+	padding-right: 0;
+	padding-left:350px; 
+}
+.headDoc:after{
+	content: "Browse all document";
+	font-size: 10px;
+	padding-left:270px;
+}
+.leftVideo{
+	width: 630px;
+}
+.mainVideo{
+	width: 440px;
+}
+.featuredVideo{
+	width:431px;
+	height:250px;
+
+}
+.relatedVideo div{
+	margin-top: 10px;
+	width:210px;
+	margin-right:10px;
+
+}
+.secondaryVideo{
+	width:180px;
+    position: absolute;
+    margin-left: 441px;
+}
+.secondaryVideo div:last-child{
+	font-size: 20px;
+	height: 120px;
+	line-height: 10px;
+	width: 180px;
+	position: absolute;
+}
+.rightVideo{
+	height: 380px;
+	 width: 310px;
+	 border-top: 1px solid white;
+	 border-bottom: 1px solid white;
+}
+.peopleSection{
+	width: 630px;
+	display: inline-block;
+}
+.secondaryPeople{
+	width: 180px;
+	margin-left: 441px;
+}
+.secondaryPeople div:last-child{
+	font-size: 20px;
+	height: 120px;
+	line-height: 10px;
+	width: 180px;
+	position: absolute;
+}
+.imgBox{
+ width: 60px;
+ height: 45px;
+ display: inline-block;
+ margin-top: 10px;
+}
+.txtBox{
+ width: 240px;
+ height: 45px;
+ margin-top: 10px;
+}
+.rightPeople{
+	 width: 310px;
+	 border-top: 1px solid white;
+	 border-bottom: 1px solid white;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 650px;
+}
+.peopleImg{
+	width: 150px;
+	height: 100px;
+	display: inline-block;
+	margin-top: 10px;
+	}
+.footer{
+	width: 100%;
+	border-top: 1px solid white;
+}
+.footer i:first-child{
+	margin-left: 0;
+}
+.footer ul li{
+	list-style-type: none;
+	float: left;
+}
+.footer ul li:after{
+	content: "/";
+	padding: 20px;
+}
+.footer ul li:last-child:after{
+ content: "";
+}
+.copy i,p{
+float: left;
+margin-left: 5px;
+}
+.copy i{
+	margin-left: 0;
+}
+
+/*Main section*/
